@@ -4,8 +4,8 @@ import numpy as np
 import pandas as pd
 
 # import the model
-pipe = pd.read_pickle(r"C:\Users\atulb\OneDrive\Desktop\Project\project\Scripts\pipe.pkl")
-df = pd.read_pickle(r"C:\Users\atulb\OneDrive\Desktop\Project\project\Scripts\df.pkl")
+pipe = pd.read_pickle(r"pipe.pkl")
+df = pd.read_pickle(r"df.pkl")
 
 # Set page title and favicon
 st.set_page_config(
