@@ -9,7 +9,7 @@ df = pd.read_pickle(r"df.pkl")
 
 # Set page title and favicon
 st.set_page_config(
-    page_title="Laptop Price Predictor",
+    page_title="LapPricer",
     page_icon="💻",
     layout="wide"
 )
@@ -17,7 +17,7 @@ st.set_page_config(
 # Page Header
 st.title("LapPricer-Laptop Price Predictor")
 st.write(
-    "Welcome to the Laptop Price Predictor. Input the details of the laptop configuration, and I will predict its price!"
+    "Welcome to the Laptop Price Predictor. Input the details of the laptop configuration and predict its price!"
 )
 
 # Sidebar with additional information
