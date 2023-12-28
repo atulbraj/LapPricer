@@ -15,7 +15,7 @@ st.set_page_config(
 )
 
 # Page Header
-st.title("Laptop Price Predictor")
+st.title("LapPricer-Laptop Price Predictor")
 st.write(
     "Welcome to the Laptop Price Predictor. Input the details of the laptop configuration, and I will predict its price!"
 )
